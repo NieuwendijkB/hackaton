@@ -1,0 +1,333 @@
+body {
+  font: sedan;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin: 3%;
+  background-image: url(Images/Giraffeloeklang.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  font: sedan;
+  font-size: 40px;
+  text-align: left;
+  line-height: 10px;
+}
+h2 {
+  font: sedan;
+  font-size: 24px;
+  text-align: left;
+  line-height: 20px;
+}
+h3 {
+  font: sedan;
+  font-size: 24px;
+  text-align: center;
+}
+nav ul li {
+  font-size: 20px;
+  display: inline;
+  float: center;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: black;
+  left: 20px;
+}
+div nav ul {
+  width: inherit;
+  height: 90px;
+  background: rgba(83, 71, 49, 0.76);
+  text-align: center;
+  padding-top: 45px;
+  position: relative;
+}
+li a {
+  color: black;
+}
+li :hover {
+  color: white;
+}
+.logo img {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  margin-left: 20px;
+  z-index: 2;
+  width: 75px;
+}
+.welkom {
+  background-color: rgba(88, 85, 86, 0.76);
+  color: white;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  top: 140px;
+}
+.exposities {
+  background-color: rgba(88, 85, 86, 0.76);
+  color: white;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  top: 300px;
+  font: sedan;
+}
+.exposities li {
+  font-size: 15px;
+}
+.copyright {
+  background-color: rgba(74, 74, 74, 0.8);
+  color: black;
+  width: fit-content;
+  margin: 0 auto;
+  position: relative;
+  bottom: 0;
+  top: 800px;
+  font-size: 8px;
+  line-height: 10px;
+}
+.para-een {
+  background-color: rgba(88, 85, 86, 0.76);
+  color: white;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+.para-twee {
+  background-color: rgba(88, 85, 86, 0.76);
+  color: white;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+.para-drie {
+  background-color: rgba(88, 85, 86, 0.76);
+  color: white;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+.contactForm {
+  background-color: rgba(88, 85, 86, 0.76);
+  color: white;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  bottom: 50px;
+  text-align: right;
+  padding-right: 50px;
+}
+.contactText {
+  text-align: left;
+  width: 200px;
+}
+.gallerie {
+  margin-bottom: 50px;
+  width: 250px;
+}
+.naald img {
+  width: 250px;
+}
+.hart img {
+  width: 250px;
+}
+.vrouw img {
+  width: 250px;
+}
+.curve img {
+  width: 250px;
+}
+@-ms-viewport {
+  zoom: 1;
+  width: extend-to-zoom;
+}
+@media (min-width: 1024px) {
+  body {
+    font: sedan;
+    font-weight: 400;
+
+    font-size: 35px;
+    line-height: 50px;
+
+    margin: 3%;
+  }
+  nav ul li {
+    font-size: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    left: 30px;
+  }
+  div nav ul {
+    height: 90px;
+    padding-top: 45px;
+  }
+  .logo img {
+    top: 65px;
+    margin-left: 20px;
+    width: 100px;
+  }
+  h1 {
+    font-size: 70px;
+    line-height: 10px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 35px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  .welkom {
+    width: 650px;
+    margin: 0 auto;
+    top: 140px;
+  }
+  .exposities {
+    width: 550px;
+    margin: 0 auto;
+    top: 300px;
+  }
+  .exposities li {
+    font-size: 25px;
+  }
+  .copyright {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .para-een {
+    width: 650px;
+    margin: 0 auto;
+  }
+  .para-twee {
+    width: 650px;
+    margin: 0 auto;
+  }
+  .para-drie {
+    width: 650px;
+    margin: 0 auto;
+  }
+  .contactText {
+    text-align: left;
+    width: 400px;
+  }
+  .contactForm {
+    font-size: 20px;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    bottom: 100px;
+    text-align: right;
+    padding-right: 80px;
+  }
+  .naald img {
+    width: 500px;
+  }
+  .hart img {
+    width: 500px;
+  }
+  .vrouw img {
+    width: 500px;
+  }
+  .curve img {
+    width: 500px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font: sedan;
+    font-weight: 400;
+
+    font-size: 30px;
+    line-height: 40px;
+
+    margin: 3%;
+  }
+  nav ul li {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    left: 30px;
+  }
+  div nav ul {
+    height: 90px;
+    padding-top: 45px;
+  }
+  .logo img {
+    top: 65px;
+    margin-left: 20px;
+    width: 80px;
+  }
+  h1 {
+    font-size: 60px;
+    line-height: 8px;
+  }
+  h2 {
+    font-size: 35px;
+    line-height: 30px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  .welkom {
+    width: 600px;
+    margin: 0 auto;
+    top: 140px;
+  }
+  .exposities {
+    width: 500px;
+    margin: 0 auto;
+    top: 300px;
+  }
+  .exposities li {
+    font-size: 20px;
+  }
+  .copyright {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .para-een {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .para-twee {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .para-drie {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .contactText {
+    text-align: left;
+    width: 350px;
+  }
+  .contactForm {
+    font-size: 16px;
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    bottom: 80px;
+    text-align: right;
+    padding-right: 70px;
+  }
+  .naald img {
+    width: 450px;
+  }
+  .hart img {
+    width: 450px;
+  }
+  .vrouw img {
+    width: 450px;
+  }
+  .curve img {
+    width: 450px;
+  }
+}
